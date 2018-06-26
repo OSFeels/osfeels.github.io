@@ -1,0 +1,1 @@
+var spinner=$("#spinner-form");spinner.is(":checked")&&spinner.prop("checked",!1),$("#menu-toggle").click(function(){$("#desktop-collapse").toggleClass("open"),spinner.attr("aria_expanded",function(e,n){return"true"===n?"false":"true"})});
